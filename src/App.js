@@ -16,7 +16,7 @@ class App extends Component {
     if (!copy) return null;
 
     return (
-      <div className="App">
+      <div className="app">
         <Header copy={getCopyForComponent(copy, "Header").copies} />
       </div>
     );
