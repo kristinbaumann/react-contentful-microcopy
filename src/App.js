@@ -15,6 +15,7 @@ class App extends Component {
     const { copy } = this.state;
     if (!copy) return null;
 
+    console.log(copy);
     return (
       <div className="app">
         <Header copy={getCopyForComponent(copy, "Header").copies} />
